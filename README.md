@@ -16,9 +16,11 @@ apos isso "cd .." e "cd voz" aqui voce roda "pip install -r requirements.txt"
 para usar o projeto:
 
 cd llm
+
 cargo run
 
 - em outra aba
 
 cd voz
+
 python main.py
