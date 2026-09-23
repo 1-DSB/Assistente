@@ -1,0 +1,9 @@
+target/
+
+Qwen3-0.6B-Q8_0.gguf
+
+.env
+
+.venv/
+
+.idea/

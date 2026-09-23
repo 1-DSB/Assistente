@@ -1,0 +1,2315 @@
+{
+    "nada": {},
+    "greeting": {
+        "oi": {
+            "peso": 3,
+            "semelhante": "oii",
+            "similaridade": 0.6666666666666666
+        },
+        "oii": {
+            "peso": 1,
+            "semelhante": "oi",
+            "similaridade": 0.6666666666666666
+        },
+        "oie": {
+            "peso": 1,
+            "semelhante": "oi",
+            "similaridade": 0.6666666666666666
+        },
+        "ola": {
+            "peso": 1,
+            "semelhante": "olá",
+            "similaridade": 0.3333333333333333
+        },
+        "olá": {
+            "peso": 2,
+            "semelhante": "oláá",
+            "similaridade": 0.75
+        },
+        "oláá": {
+            "peso": 1,
+            "semelhante": "olááá",
+            "similaridade": 0.8
+        },
+        "olááá": {
+            "peso": 1,
+            "semelhante": "oláá",
+            "similaridade": 0.8
+        },
+        "bom": {
+            "peso": 9,
+            "semelhante": "bom?",
+            "similaridade": 0.75
+        },
+        "dia": {
+            "peso": 6,
+            "semelhante": "diaa",
+            "similaridade": 0.75
+        },
+        "diaa": {
+            "peso": 1,
+            "semelhante": "dia",
+            "similaridade": 0.75
+        },
+        "flor": {
+            "peso": 1,
+            "semelhante": "flor",
+            "similaridade": 0
+        },
+        "do": {
+            "peso": 1,
+            "semelhante": "do",
+            "similaridade": 0
+        },
+        "pessoa": {
+            "peso": 3,
+            "semelhante": "pessoa",
+            "similaridade": 0
+        },
+        "boa": {
+            "peso": 7,
+            "semelhante": "bom",
+            "similaridade": 0.3333333333333333
+        },
+        "tarde": {
+            "peso": 2,
+            "semelhante": "tardee",
+            "similaridade": 0.8333333333333334
+        },
+        "tardee": {
+            "peso": 1,
+            "semelhante": "tarde",
+            "similaridade": 0.8333333333333334
+        },
+        "noite": {
+            "peso": 4,
+            "semelhante": "noite",
+            "similaridade": 0
+        },
+        "estrela": {
+            "peso": 1,
+            "semelhante": "e",
+            "similaridade": 0.14285714285714285
+        },
+        "lua": {
+            "peso": 1,
+            "semelhante": "lua",
+            "similaridade": 0
+        },
+        "eae": {
+            "peso": 6,
+            "semelhante": "eai",
+            "similaridade": 0.3333333333333333
+        },
+        "eai": {
+            "peso": 1,
+            "semelhante": "eae",
+            "similaridade": 0.3333333333333333
+        },
+        "e": {
+            "peso": 2,
+            "semelhante": "em",
+            "similaridade": 0.5
+        },
+        "aí": {
+            "peso": 3,
+            "semelhante": "aí",
+            "similaridade": 0
+        },
+        "aee": {
+            "peso": 1,
+            "semelhante": "aee",
+            "similaridade": 0
+        },
+        "parceiro": {
+            "peso": 2,
+            "semelhante": "tarde",
+            "similaridade": 0.125
+        },
+        "família": {
+            "peso": 2,
+            "semelhante": "família",
+            "similaridade": 0
+        },
+        "galera": {
+            "peso": 2,
+            "semelhante": "galera",
+            "similaridade": 0
+        },
+        "fala": {
+            "peso": 6,
+            "semelhante": "fala",
+            "similaridade": 0
+        },
+        "meu": {
+            "peso": 3,
+            "semelhante": "meu",
+            "similaridade": 0
+        },
+        "consagrado": {
+            "peso": 1,
+            "semelhante": "coé",
+            "similaridade": 0.1
+        },
+        "opa": {
+            "peso": 5,
+            "semelhante": "opaaa",
+            "similaridade": 0.6
+        },
+        "opaaa": {
+            "peso": 1,
+            "semelhante": "opa",
+            "similaridade": 0.6
+        },
+        "opão": {
+            "peso": 1,
+            "semelhante": "opa",
+            "similaridade": 0.25
+        },
+        "querido": {
+            "peso": 1,
+            "semelhante": "que",
+            "similaridade": 0.42857142857142855
+        },
+        "salve": {
+            "peso": 5,
+            "semelhante": "salve",
+            "similaridade": 0
+        },
+        "tudo": {
+            "peso": 6,
+            "semelhante": "tu",
+            "similaridade": 0.5
+        },
+        "bem": {
+            "peso": 2,
+            "semelhante": "bom",
+            "similaridade": 0.3333333333333333
+        },
+        "certo": {
+            "peso": 1,
+            "semelhante": "certo?",
+            "similaridade": 0.8333333333333334
+        },
+        "comigo": {
+            "peso": 1,
+            "semelhante": "como",
+            "similaridade": 0.3333333333333333
+        },
+        "gg": {
+            "peso": 1,
+            "semelhante": "gg",
+            "similaridade": 0
+        },
+        "ai": {
+            "peso": 1,
+            "semelhante": "ai",
+            "similaridade": 0
+        },
+        "pra": {
+            "peso": 1,
+            "semelhante": "prazer",
+            "similaridade": 0.5
+        },
+        "você": {
+            "peso": 2,
+            "semelhante": "você",
+            "similaridade": 0
+        },
+        "hey": {
+            "peso": 1,
+            "semelhante": "hello",
+            "similaridade": 0.2
+        },
+        "hi": {
+            "peso": 1,
+            "semelhante": "hi",
+            "similaridade": 0
+        },
+        "hello": {
+            "peso": 1,
+            "semelhante": "hey",
+            "similaridade": 0.2
+        },
+        "howdy": {
+            "peso": 1,
+            "semelhante": "howdy",
+            "similaridade": 0
+        },
+        "iae": {
+            "peso": 1,
+            "semelhante": "eae",
+            "similaridade": 0.3333333333333333
+        },
+        "coé": {
+            "peso": 1,
+            "semelhante": "como",
+            "similaridade": 0.25
+        },
+        "beleza?": {
+            "peso": 1,
+            "semelhante": "belezaaa",
+            "similaridade": 0.625
+        },
+        "belezaaa": {
+            "peso": 1,
+            "semelhante": "beleza?",
+            "similaridade": 0.625
+        },
+        "certo?": {
+            "peso": 1,
+            "semelhante": "certo",
+            "similaridade": 0.8333333333333334
+        },
+        "bom?": {
+            "peso": 1,
+            "semelhante": "bom",
+            "similaridade": 0.75
+        },
+        "como": {
+            "peso": 1,
+            "semelhante": "comigo",
+            "similaridade": 0.3333333333333333
+        },
+        "vai": {
+            "peso": 1,
+            "semelhante": "eai",
+            "similaridade": 0.3333333333333333
+        },
+        "prazer": {
+            "peso": 1,
+            "semelhante": "pra",
+            "similaridade": 0.5
+        },
+        "em": {
+            "peso": 1,
+            "semelhante": "e",
+            "similaridade": 0.5
+        },
+        "te": {
+            "peso": 2,
+            "semelhante": "te",
+            "similaridade": 0
+        },
+        "ver": {
+            "peso": 1,
+            "semelhante": "certo",
+            "similaridade": 0.2
+        },
+        "que": {
+            "peso": 1,
+            "semelhante": "querido",
+            "similaridade": 0.42857142857142855
+        },
+        "encontrar": {
+            "peso": 1,
+            "semelhante": "e",
+            "similaridade": 0.1111111111111111
+        },
+        "finalmente": {
+            "peso": 1,
+            "semelhante": "finalmente",
+            "similaridade": 0
+        },
+        "sim": {
+            "peso": 1,
+            "semelhante": "sim",
+            "similaridade": 0
+        },
+        "demorou": {
+            "peso": 1,
+            "semelhante": "bem",
+            "similaridade": 0.14285714285714285
+        },
+        "tu": {
+            "peso": 1,
+            "semelhante": "tudo",
+            "similaridade": 0.5
+        }
+    },
+    "farewell": {
+        "tchau": {
+            "peso": 3,
+            "semelhante": "tchauzinho",
+            "similaridade": 0.5
+        },
+        "tchauzinho": {
+            "peso": 1,
+            "semelhante": "tchau",
+            "similaridade": 0.5
+        },
+        "até": {
+            "peso": 10,
+            "semelhante": "a",
+            "similaridade": 0.3333333333333333
+        },
+        "mais": {
+            "peso": 3,
+            "semelhante": "cai",
+            "similaridade": 0.25
+        },
+        "ver": {
+            "peso": 1,
+            "semelhante": "vemos",
+            "similaridade": 0.2
+        },
+        "falou": {
+            "peso": 1,
+            "semelhante": "falouu",
+            "similaridade": 0.8333333333333334
+        },
+        "falouu": {
+            "peso": 1,
+            "semelhante": "falou",
+            "similaridade": 0.8333333333333334
+        },
+        "flw": {
+            "peso": 1,
+            "semelhante": "flw",
+            "similaridade": 0
+        },
+        "fui": {
+            "peso": 2,
+            "semelhante": "fuiii",
+            "similaridade": 0.6
+        },
+        "fuiii": {
+            "peso": 1,
+            "semelhante": "fui",
+            "similaridade": 0.6
+        },
+        "logo": {
+            "peso": 1,
+            "semelhante": "loguinho",
+            "similaridade": 0.25
+        },
+        "loguinho": {
+            "peso": 1,
+            "semelhante": "logo",
+            "similaridade": 0.25
+        },
+        "vou": {
+            "peso": 2,
+            "semelhante": "viu",
+            "similaridade": 0.3333333333333333
+        },
+        "sair": {
+            "peso": 3,
+            "semelhante": "saindo",
+            "similaridade": 0.3333333333333333
+        },
+        "depois": {
+            "peso": 1,
+            "semelhante": "depois",
+            "similaridade": 0
+        },
+        "nos": {
+            "peso": 1,
+            "semelhante": "nessa",
+            "similaridade": 0.2
+        },
+        "vemos": {
+            "peso": 1,
+            "semelhante": "ver",
+            "similaridade": 0.2
+        },
+        "amanhã": {
+            "peso": 1,
+            "semelhante": "a",
+            "similaridade": 0.16666666666666666
+        },
+        "breve": {
+            "peso": 1,
+            "semelhante": "breve",
+            "similaridade": 0
+        },
+        "inté": {
+            "peso": 1,
+            "semelhante": "intéé",
+            "similaridade": 0.8
+        },
+        "intéé": {
+            "peso": 1,
+            "semelhante": "inté",
+            "similaridade": 0.8
+        },
+        "to": {
+            "peso": 2,
+            "semelhante": "to",
+            "similaridade": 0
+        },
+        "indo": {
+            "peso": 1,
+            "semelhante": "indo",
+            "similaridade": 0
+        },
+        "saindo": {
+            "peso": 1,
+            "semelhante": "sair",
+            "similaridade": 0.3333333333333333
+        },
+        "me": {
+            "peso": 1,
+            "semelhante": "me",
+            "similaridade": 0
+        },
+        "retirando": {
+            "peso": 1,
+            "semelhante": "retirando",
+            "similaridade": 0
+        },
+        "preciso": {
+            "peso": 3,
+            "semelhante": "preciso",
+            "similaridade": 0
+        },
+        "ir": {
+            "peso": 1,
+            "semelhante": "ir",
+            "similaridade": 0
+        },
+        "a": {
+            "peso": 1,
+            "semelhante": "até",
+            "similaridade": 0.3333333333333333
+        },
+        "próxima": {
+            "peso": 1,
+            "semelhante": "próxima",
+            "similaridade": 0
+        },
+        "se": {
+            "peso": 2,
+            "semelhante": "se",
+            "similaridade": 0
+        },
+        "cuida": {
+            "peso": 2,
+            "semelhante": "fui",
+            "similaridade": 0.2
+        },
+        "viu": {
+            "peso": 1,
+            "semelhante": "vou",
+            "similaridade": 0.3333333333333333
+        },
+        "nessa": {
+            "peso": 1,
+            "semelhante": "nos",
+            "similaridade": 0.2
+        },
+        "partiu": {
+            "peso": 1,
+            "semelhante": "por",
+            "similaridade": 0.16666666666666666
+        },
+        "bora": {
+            "peso": 1,
+            "semelhante": "fora",
+            "similaridade": 0.5
+        },
+        "cai": {
+            "peso": 1,
+            "semelhante": "mais",
+            "similaridade": 0.25
+        },
+        "fora": {
+            "peso": 1,
+            "semelhante": "bora",
+            "similaridade": 0.5
+        },
+        "vazou": {
+            "peso": 1,
+            "semelhante": "falou",
+            "similaridade": 0.2
+        },
+        "correndo": {
+            "peso": 1,
+            "semelhante": "por",
+            "similaridade": 0.125
+        },
+        "um": {
+            "peso": 1,
+            "semelhante": "um",
+            "similaridade": 0
+        },
+        "dia": {
+            "peso": 1,
+            "semelhante": "dia",
+            "similaridade": 0
+        },
+        "qualquer": {
+            "peso": 1,
+            "semelhante": "qualquer",
+            "similaridade": 0
+        },
+        "hora": {
+            "peso": 1,
+            "semelhante": "bora",
+            "similaridade": 0.5
+        },
+        "fechar": {
+            "peso": 1,
+            "semelhante": "fechar",
+            "similaridade": 0
+        },
+        "encerrar": {
+            "peso": 2,
+            "semelhante": "encerrar",
+            "similaridade": 0
+        },
+        "terminar": {
+            "peso": 1,
+            "semelhante": "ver",
+            "similaridade": 0.125
+        },
+        "conversa": {
+            "peso": 1,
+            "semelhante": "conversa",
+            "similaridade": 0
+        },
+        "acabou": {
+            "peso": 1,
+            "semelhante": "a",
+            "similaridade": 0.16666666666666666
+        },
+        "por": {
+            "peso": 1,
+            "semelhante": "bora",
+            "similaridade": 0.25
+        },
+        "aqui": {
+            "peso": 1,
+            "semelhante": "a",
+            "similaridade": 0.25
+        },
+        "não": {
+            "peso": 1,
+            "semelhante": "não",
+            "similaridade": 0
+        },
+        "obrigado": {
+            "peso": 1,
+            "semelhante": "obrigado",
+            "similaridade": 0
+        },
+        "já": {
+            "peso": 1,
+            "semelhante": "já",
+            "similaridade": 0
+        },
+        "resolveu": {
+            "peso": 1,
+            "semelhante": "resolveu",
+            "similaridade": 0
+        },
+        "pode": {
+            "peso": 1,
+            "semelhante": "por",
+            "similaridade": 0.25
+        }
+    },
+    "how_are_you": {
+        "tudo": {
+            "peso": 9,
+            "semelhante": "tudo",
+            "similaridade": 0
+        },
+        "bem": {
+            "peso": 5,
+            "semelhante": "bom",
+            "similaridade": 0.3333333333333333
+        },
+        "bom": {
+            "peso": 1,
+            "semelhante": "bem",
+            "similaridade": 0.3333333333333333
+        },
+        "certo": {
+            "peso": 3,
+            "semelhante": "certo",
+            "similaridade": 0
+        },
+        "tranquilo": {
+            "peso": 1,
+            "semelhante": "tranquilo",
+            "similaridade": 0
+        },
+        "como": {
+            "peso": 12,
+            "semelhante": "com",
+            "similaridade": 0.75
+        },
+        "você": {
+            "peso": 9,
+            "semelhante": "você",
+            "similaridade": 0
+        },
+        "está": {
+            "peso": 6,
+            "semelhante": "estão",
+            "similaridade": 0.4
+        },
+        "tá": {
+            "peso": 5,
+            "semelhante": "tá",
+            "similaridade": 0
+        },
+        "vai": {
+            "peso": 2,
+            "semelhante": "vai",
+            "similaridade": 0
+        },
+        "se": {
+            "peso": 3,
+            "semelhante": "sente",
+            "similaridade": 0.4
+        },
+        "sente": {
+            "peso": 2,
+            "semelhante": "se",
+            "similaridade": 0.4
+        },
+        "e": {
+            "peso": 1,
+            "semelhante": "em",
+            "similaridade": 0.5
+        },
+        "ai": {
+            "peso": 1,
+            "semelhante": "ai",
+            "similaridade": 0
+        },
+        "ta": {
+            "peso": 1,
+            "semelhante": "ta",
+            "similaridade": 0
+        },
+        "com": {
+            "peso": 1,
+            "semelhante": "como",
+            "similaridade": 0.75
+        },
+        "beleza?": {
+            "peso": 1,
+            "semelhante": "bem",
+            "similaridade": 0.14285714285714285
+        },
+        "tão": {
+            "peso": 1,
+            "semelhante": "tão",
+            "similaridade": 0
+        },
+        "as": {
+            "peso": 2,
+            "semelhante": "as",
+            "similaridade": 0
+        },
+        "coisas": {
+            "peso": 2,
+            "semelhante": "com",
+            "similaridade": 0.16666666666666666
+        },
+        "ok": {
+            "peso": 1,
+            "semelhante": "ok",
+            "similaridade": 0
+        },
+        "hoje": {
+            "peso": 1,
+            "semelhante": "hoje",
+            "similaridade": 0
+        },
+        "sentindo": {
+            "peso": 1,
+            "semelhante": "sente",
+            "similaridade": 0.375
+        },
+        "anda": {
+            "peso": 1,
+            "semelhante": "anda",
+            "similaridade": 0
+        },
+        "estão": {
+            "peso": 1,
+            "semelhante": "está",
+            "similaridade": 0.4
+        },
+        "em": {
+            "peso": 1,
+            "semelhante": "e",
+            "similaridade": 0.5
+        },
+        "cima": {
+            "peso": 1,
+            "semelhante": "com",
+            "similaridade": 0.25
+        },
+        "cê": {
+            "peso": 1,
+            "semelhante": "cê",
+            "similaridade": 0
+        }
+    },
+    "thanks": {
+        "obrigado": {
+            "peso": 5,
+            "semelhante": "obrigada",
+            "similaridade": 0.75
+        },
+        "obrigada": {
+            "peso": 2,
+            "semelhante": "obrigado",
+            "similaridade": 0.75
+        },
+        "obrigadão": {
+            "peso": 1,
+            "semelhante": "obrigado",
+            "similaridade": 0.6666666666666666
+        },
+        "obrigadinha": {
+            "peso": 1,
+            "semelhante": "obrigado",
+            "similaridade": 0.5454545454545454
+        },
+        "valeu": {
+            "peso": 4,
+            "semelhante": "valeu",
+            "similaridade": 0
+        },
+        "mesmo": {
+            "peso": 1,
+            "semelhante": "mesmo",
+            "similaridade": 0
+        },
+        "demais": {
+            "peso": 1,
+            "semelhante": "demais",
+            "similaridade": 0
+        },
+        "muito": {
+            "peso": 3,
+            "semelhante": "muito",
+            "similaridade": 0
+        },
+        "agradecido": {
+            "peso": 1,
+            "semelhante": "agradecida",
+            "similaridade": 0.8
+        },
+        "agradecida": {
+            "peso": 1,
+            "semelhante": "agradecido",
+            "similaridade": 0.8
+        },
+        "grato": {
+            "peso": 2,
+            "semelhante": "grata",
+            "similaridade": 0.6
+        },
+        "grata": {
+            "peso": 2,
+            "semelhante": "grato",
+            "similaridade": 0.6
+        },
+        "brigado": {
+            "peso": 1,
+            "semelhante": "brigada",
+            "similaridade": 0.7142857142857143
+        },
+        "brigada": {
+            "peso": 1,
+            "semelhante": "brigado",
+            "similaridade": 0.7142857142857143
+        },
+        "vlw": {
+            "peso": 1,
+            "semelhante": "vlwww",
+            "similaridade": 0.6
+        },
+        "vlwww": {
+            "peso": 1,
+            "semelhante": "vlw",
+            "similaridade": 0.6
+        },
+        "agradeço": {
+            "peso": 2,
+            "semelhante": "agradecer",
+            "similaridade": 0.4444444444444444
+        },
+        "pela": {
+            "peso": 2,
+            "semelhante": "pela",
+            "similaridade": 0
+        },
+        "ajuda": {
+            "peso": 2,
+            "semelhante": "ajuda",
+            "similaridade": 0
+        },
+        "por": {
+            "peso": 1,
+            "semelhante": "por",
+            "similaridade": 0
+        },
+        "tudo": {
+            "peso": 1,
+            "semelhante": "tu",
+            "similaridade": 0.5
+        },
+        "tu": {
+            "peso": 1,
+            "semelhante": "tudo",
+            "similaridade": 0.5
+        },
+        "é": {
+            "peso": 3,
+            "semelhante": "é",
+            "similaridade": 0
+        },
+        "fera": {
+            "peso": 3,
+            "semelhante": "fera",
+            "similaridade": 0
+        },
+        "cê": {
+            "peso": 1,
+            "semelhante": "cê",
+            "similaridade": 0
+        },
+        "você": {
+            "peso": 1,
+            "semelhante": "você",
+            "similaridade": 0
+        },
+        "devo": {
+            "peso": 1,
+            "semelhante": "devo",
+            "similaridade": 0
+        },
+        "te": {
+            "peso": 1,
+            "semelhante": "te",
+            "similaridade": 0
+        },
+        "agradecer": {
+            "peso": 1,
+            "semelhante": "agradecido",
+            "similaridade": 0.5
+        },
+        "sou": {
+            "peso": 2,
+            "semelhante": "sou",
+            "similaridade": 0
+        },
+        "viu": {
+            "peso": 1,
+            "semelhante": "viu",
+            "similaridade": 0
+        }
+    },
+    "identidade": {
+        "qual": {
+            "peso": 6,
+            "semelhante": "que",
+            "similaridade": 0.25
+        },
+        "seu": {
+            "peso": 6,
+            "semelhante": "seus",
+            "similaridade": 0.75
+        },
+        "nome": {
+            "peso": 4,
+            "semelhante": "nome",
+            "similaridade": 0
+        },
+        "o": {
+            "peso": 3,
+            "semelhante": "onde",
+            "similaridade": 0.25
+        },
+        "me": {
+            "peso": 4,
+            "semelhante": "me",
+            "similaridade": 0
+        },
+        "diga": {
+            "peso": 1,
+            "semelhante": "diga",
+            "similaridade": 0
+        },
+        "como": {
+            "peso": 2,
+            "semelhante": "como",
+            "similaridade": 0
+        },
+        "você": {
+            "peso": 13,
+            "semelhante": "você",
+            "similaridade": 0
+        },
+        "se": {
+            "peso": 2,
+            "semelhante": "seu",
+            "similaridade": 0.6666666666666666
+        },
+        "chama": {
+            "peso": 2,
+            "semelhante": "chama",
+            "similaridade": 0
+        },
+        "te": {
+            "peso": 3,
+            "semelhante": "te",
+            "similaridade": 0
+        },
+        "é": {
+            "peso": 11,
+            "semelhante": "é",
+            "similaridade": 0
+        },
+        "quem": {
+            "peso": 6,
+            "semelhante": "que",
+            "similaridade": 0.75
+        },
+        "tu": {
+            "peso": 1,
+            "semelhante": "tu",
+            "similaridade": 0
+        },
+        "fala": {
+            "peso": 2,
+            "semelhante": "fale",
+            "similaridade": 0.5
+        },
+        "que": {
+            "peso": 4,
+            "semelhante": "quem",
+            "similaridade": 0.75
+        },
+        "uma": {
+            "peso": 1,
+            "semelhante": "um",
+            "similaridade": 0.6666666666666666
+        },
+        "ia": {
+            "peso": 1,
+            "semelhante": "ia",
+            "similaridade": 0
+        },
+        "um": {
+            "peso": 1,
+            "semelhante": "uma",
+            "similaridade": 0.6666666666666666
+        },
+        "robô": {
+            "peso": 2,
+            "semelhante": "robô",
+            "similaridade": 0
+        },
+        "inteligência": {
+            "peso": 1,
+            "semelhante": "inteligência",
+            "similaridade": 0
+        },
+        "artificial": {
+            "peso": 1,
+            "semelhante": "artificial",
+            "similaridade": 0
+        },
+        "criou": {
+            "peso": 1,
+            "semelhante": "criador",
+            "similaridade": 0.14285714285714285
+        },
+        "foi": {
+            "peso": 1,
+            "semelhante": "foi",
+            "similaridade": 0
+        },
+        "fez": {
+            "peso": 1,
+            "semelhante": "fez",
+            "similaridade": 0
+        },
+        "criador": {
+            "peso": 1,
+            "semelhante": "criou",
+            "similaridade": 0.14285714285714285
+        },
+        "sua": {
+            "peso": 3,
+            "semelhante": "qual",
+            "similaridade": 0.25
+        },
+        "função": {
+            "peso": 1,
+            "semelhante": "função",
+            "similaridade": 0
+        },
+        "propósito": {
+            "peso": 1,
+            "semelhante": "propósito",
+            "similaridade": 0
+        },
+        "para": {
+            "peso": 1,
+            "semelhante": "para",
+            "similaridade": 0
+        },
+        "serve": {
+            "peso": 1,
+            "semelhante": "se",
+            "similaridade": 0.4
+        },
+        "sobre": {
+            "peso": 1,
+            "semelhante": "sobre",
+            "similaridade": 0
+        },
+        "apresente": {
+            "peso": 2,
+            "semelhante": "apresente",
+            "similaridade": 0
+        },
+        "conte": {
+            "peso": 1,
+            "semelhante": "conte",
+            "similaridade": 0
+        },
+        "história": {
+            "peso": 1,
+            "semelhante": "história",
+            "similaridade": 0
+        },
+        "origem": {
+            "peso": 1,
+            "semelhante": "o",
+            "similaridade": 0.16666666666666666
+        },
+        "de": {
+            "peso": 2,
+            "semelhante": "de",
+            "similaridade": 0
+        },
+        "onde": {
+            "peso": 1,
+            "semelhante": "o",
+            "similaridade": 0.25
+        },
+        "veio": {
+            "peso": 1,
+            "semelhante": "veio",
+            "similaridade": 0
+        },
+        "capaz": {
+            "peso": 1,
+            "semelhante": "capaz",
+            "similaridade": 0
+        },
+        "fale": {
+            "peso": 1,
+            "semelhante": "fala",
+            "similaridade": 0.5
+        },
+        "seus": {
+            "peso": 1,
+            "semelhante": "seu",
+            "similaridade": 0.75
+        },
+        "poderes": {
+            "peso": 1,
+            "semelhante": "poderes",
+            "similaridade": 0
+        }
+    },
+    "ajuda": {
+        "me": {
+            "peso": 5,
+            "semelhante": "me",
+            "similaridade": 0
+        },
+        "ajuda": {
+            "peso": 4,
+            "semelhante": "ajudar",
+            "similaridade": 0.8333333333333334
+        },
+        "ai": {
+            "peso": 1,
+            "semelhante": "ai",
+            "similaridade": 0
+        },
+        "socorro": {
+            "peso": 1,
+            "semelhante": "socorro",
+            "similaridade": 0
+        },
+        "preciso": {
+            "peso": 2,
+            "semelhante": "preciso",
+            "similaridade": 0
+        },
+        "de": {
+            "peso": 3,
+            "semelhante": "de",
+            "similaridade": 0
+        },
+        "aqui": {
+            "peso": 1,
+            "semelhante": "aqui",
+            "similaridade": 0
+        },
+        "pode": {
+            "peso": 2,
+            "semelhante": "poderes",
+            "similaridade": 0.5714285714285714
+        },
+        "ajudar": {
+            "peso": 1,
+            "semelhante": "ajuda",
+            "similaridade": 0.8333333333333334
+        },
+        "da": {
+            "peso": 1,
+            "semelhante": "da",
+            "similaridade": 0
+        },
+        "uma": {
+            "peso": 1,
+            "semelhante": "usar",
+            "similaridade": 0.25
+        },
+        "força": {
+            "peso": 1,
+            "semelhante": "força",
+            "similaridade": 0
+        },
+        "o": {
+            "peso": 5,
+            "semelhante": "o",
+            "similaridade": 0
+        },
+        "que": {
+            "peso": 5,
+            "semelhante": "qual",
+            "similaridade": 0.25
+        },
+        "você": {
+            "peso": 8,
+            "semelhante": "você",
+            "similaridade": 0
+        },
+        "fazer": {
+            "peso": 3,
+            "semelhante": "faz",
+            "similaridade": 0.6
+        },
+        "sabe": {
+            "peso": 2,
+            "semelhante": "sabe",
+            "similaridade": 0
+        },
+        "faz": {
+            "peso": 2,
+            "semelhante": "fazer",
+            "similaridade": 0.6
+        },
+        "quais": {
+            "peso": 2,
+            "semelhante": "qual",
+            "similaridade": 0.4
+        },
+        "são": {
+            "peso": 1,
+            "semelhante": "são",
+            "similaridade": 0
+        },
+        "suas": {
+            "peso": 2,
+            "semelhante": "sua",
+            "similaridade": 0.75
+        },
+        "funções": {
+            "peso": 2,
+            "semelhante": "funções",
+            "similaridade": 0
+        },
+        "comandos": {
+            "peso": 2,
+            "semelhante": "como",
+            "similaridade": 0.25
+        },
+        "entende": {
+            "peso": 1,
+            "semelhante": "entende",
+            "similaridade": 0
+        },
+        "como": {
+            "peso": 3,
+            "semelhante": "comandos",
+            "similaridade": 0.25
+        },
+        "funciona": {
+            "peso": 1,
+            "semelhante": "funciona",
+            "similaridade": 0
+        },
+        "usar": {
+            "peso": 2,
+            "semelhante": "uma",
+            "similaridade": 0.25
+        },
+        "explica": {
+            "peso": 1,
+            "semelhante": "explica",
+            "similaridade": 0
+        },
+        "mostre": {
+            "peso": 1,
+            "semelhante": "mostre",
+            "similaridade": 0
+        },
+        "seus": {
+            "peso": 1,
+            "semelhante": "seus",
+            "similaridade": 0
+        },
+        "poderes": {
+            "peso": 1,
+            "semelhante": "pode",
+            "similaridade": 0.5714285714285714
+        },
+        "lista": {
+            "peso": 1,
+            "semelhante": "lista",
+            "similaridade": 0
+        },
+        "te": {
+            "peso": 1,
+            "semelhante": "te",
+            "similaridade": 0
+        },
+        "qual": {
+            "peso": 1,
+            "semelhante": "quais",
+            "similaridade": 0.4
+        },
+        "sua": {
+            "peso": 1,
+            "semelhante": "suas",
+            "similaridade": 0.75
+        },
+        "capacidade": {
+            "peso": 1,
+            "semelhante": "capacidade",
+            "similaridade": 0
+        }
+    },
+    "tempo": {
+        "fale": {
+            "peso": 1,
+            "semelhante": "fazer",
+            "similaridade": 0.4
+        },
+        "o": {
+            "peso": 3,
+            "semelhante": "o",
+            "similaridade": 0
+        },
+        "clima": {
+            "peso": 4,
+            "semelhante": "clima",
+            "similaridade": 0
+        },
+        "qual": {
+            "peso": 5,
+            "semelhante": "qual",
+            "similaridade": 0
+        },
+        "a": {
+            "peso": 5,
+            "semelhante": "ar",
+            "similaridade": 0.5
+        },
+        "previsão": {
+            "peso": 7,
+            "semelhante": "previsão",
+            "similaridade": 0
+        },
+        "do": {
+            "peso": 7,
+            "semelhante": "do",
+            "similaridade": 0
+        },
+        "tempo": {
+            "peso": 6,
+            "semelhante": "temperatura",
+            "similaridade": 0.2727272727272727
+        },
+        "para": {
+            "peso": 10,
+            "semelhante": "para",
+            "similaridade": 0
+        },
+        "hoje": {
+            "peso": 10,
+            "semelhante": "hoje",
+            "similaridade": 0
+        },
+        "amanhã": {
+            "peso": 7,
+            "semelhante": "a",
+            "similaridade": 0.16666666666666666
+        },
+        "como": {
+            "peso": 1,
+            "semelhante": "como",
+            "similaridade": 0
+        },
+        "está": {
+            "peso": 4,
+            "semelhante": "está",
+            "similaridade": 0
+        },
+        "agora": {
+            "peso": 7,
+            "semelhante": "a",
+            "similaridade": 0.2
+        },
+        "temperatura": {
+            "peso": 3,
+            "semelhante": "tempo",
+            "similaridade": 0.2727272727272727
+        },
+        "atual": {
+            "peso": 1,
+            "semelhante": "a",
+            "similaridade": 0.2
+        },
+        "vai": {
+            "peso": 7,
+            "semelhante": "vai",
+            "similaridade": 0
+        },
+        "chover": {
+            "peso": 2,
+            "semelhante": "chovendo",
+            "similaridade": 0.5
+        },
+        "fazer": {
+            "peso": 4,
+            "semelhante": "fazendo",
+            "similaridade": 0.42857142857142855
+        },
+        "sol": {
+            "peso": 3,
+            "semelhante": "sol",
+            "similaridade": 0
+        },
+        "máxima": {
+            "peso": 1,
+            "semelhante": "mínima",
+            "similaridade": 0.3333333333333333
+        },
+        "mínima": {
+            "peso": 1,
+            "semelhante": "máxima",
+            "similaridade": 0.3333333333333333
+        },
+        "umidade": {
+            "peso": 1,
+            "semelhante": "umidade",
+            "similaridade": 0
+        },
+        "ar": {
+            "peso": 1,
+            "semelhante": "a",
+            "similaridade": 0.5
+        },
+        "velocidade": {
+            "peso": 1,
+            "semelhante": "velocidade",
+            "similaridade": 0
+        },
+        "vento": {
+            "peso": 1,
+            "semelhante": "vento",
+            "similaridade": 0
+        },
+        "sensação": {
+            "peso": 1,
+            "semelhante": "sensação",
+            "similaridade": 0
+        },
+        "térmica": {
+            "peso": 1,
+            "semelhante": "térmica",
+            "similaridade": 0
+        },
+        "de": {
+            "peso": 5,
+            "semelhante": "de",
+            "similaridade": 0
+        },
+        "chuva": {
+            "peso": 3,
+            "semelhante": "chover",
+            "similaridade": 0.16666666666666666
+        },
+        "chovendo": {
+            "peso": 1,
+            "semelhante": "chover",
+            "similaridade": 0.5
+        },
+        "fazendo": {
+            "peso": 1,
+            "semelhante": "fazer",
+            "similaridade": 0.42857142857142855
+        },
+        "nublado": {
+            "peso": 1,
+            "semelhante": "nublado",
+            "similaridade": 0
+        },
+        "fim": {
+            "peso": 1,
+            "semelhante": "fim",
+            "similaridade": 0
+        },
+        "semana": {
+            "peso": 1,
+            "semelhante": "semana",
+            "similaridade": 0
+        },
+        "manhã": {
+            "peso": 1,
+            "semelhante": "minha",
+            "similaridade": 0.2
+        },
+        "à": {
+            "peso": 2,
+            "semelhante": "à",
+            "similaridade": 0
+        },
+        "tarde": {
+            "peso": 1,
+            "semelhante": "tarde",
+            "similaridade": 0
+        },
+        "noite": {
+            "peso": 1,
+            "semelhante": "noite",
+            "similaridade": 0
+        },
+        "nevar": {
+            "peso": 1,
+            "semelhante": "nevar",
+            "similaridade": 0
+        },
+        "frio": {
+            "peso": 1,
+            "semelhante": "frio",
+            "similaridade": 0
+        },
+        "calor": {
+            "peso": 1,
+            "semelhante": "calor",
+            "similaridade": 0
+        },
+        "probabilidade": {
+            "peso": 1,
+            "semelhante": "probabilidade",
+            "similaridade": 0
+        },
+        "na": {
+            "peso": 2,
+            "semelhante": "na",
+            "similaridade": 0
+        },
+        "minha": {
+            "peso": 2,
+            "semelhante": "manhã",
+            "similaridade": 0.2
+        },
+        "cidade": {
+            "peso": 1,
+            "semelhante": "cidade",
+            "similaridade": 0
+        },
+        "localização": {
+            "peso": 1,
+            "semelhante": "localização",
+            "similaridade": 0
+        }
+    },
+    "hora": {
+        "que": {
+            "peso": 11,
+            "semelhante": "q",
+            "similaridade": 0.3333333333333333
+        },
+        "horas": {
+            "peso": 17,
+            "semelhante": "hora",
+            "similaridade": 0.8
+        },
+        "são": {
+            "peso": 8,
+            "semelhante": "sao",
+            "similaridade": 0.3333333333333333
+        },
+        "sao": {
+            "peso": 1,
+            "semelhante": "são",
+            "similaridade": 0.3333333333333333
+        },
+        "agora": {
+            "peso": 6,
+            "semelhante": "a",
+            "similaridade": 0.2
+        },
+        "exatamente": {
+            "peso": 1,
+            "semelhante": "exata",
+            "similaridade": 0.5
+        },
+        "neste": {
+            "peso": 1,
+            "semelhante": "neste",
+            "similaridade": 0
+        },
+        "momento": {
+            "peso": 2,
+            "semelhante": "momento",
+            "similaridade": 0
+        },
+        "me": {
+            "peso": 10,
+            "semelhante": "me",
+            "similaridade": 0
+        },
+        "diga": {
+            "peso": 2,
+            "semelhante": "diz",
+            "similaridade": 0.25
+        },
+        "a": {
+            "peso": 10,
+            "semelhante": "as",
+            "similaridade": 0.5
+        },
+        "hora": {
+            "peso": 14,
+            "semelhante": "horas",
+            "similaridade": 0.8
+        },
+        "as": {
+            "peso": 4,
+            "semelhante": "a",
+            "similaridade": 0.5
+        },
+        "diz": {
+            "peso": 1,
+            "semelhante": "dizer",
+            "similaridade": 0.6
+        },
+        "fala": {
+            "peso": 2,
+            "semelhante": "falar",
+            "similaridade": 0.8
+        },
+        "atual": {
+            "peso": 4,
+            "semelhante": "atualize",
+            "similaridade": 0.625
+        },
+        "certa": {
+            "peso": 2,
+            "semelhante": "certa",
+            "similaridade": 0
+        },
+        "exata": {
+            "peso": 1,
+            "semelhante": "exatamente",
+            "similaridade": 0.5
+        },
+        "horário": {
+            "peso": 5,
+            "semelhante": "horario",
+            "similaridade": 0.7142857142857143
+        },
+        "qual": {
+            "peso": 6,
+            "semelhante": "que",
+            "similaridade": 0.25
+        },
+        "é": {
+            "peso": 2,
+            "semelhante": "é",
+            "similaridade": 0
+        },
+        "o": {
+            "peso": 3,
+            "semelhante": "o",
+            "similaridade": 0
+        },
+        "pode": {
+            "peso": 3,
+            "semelhante": "pode",
+            "similaridade": 0
+        },
+        "dizer": {
+            "peso": 2,
+            "semelhante": "diz",
+            "similaridade": 0.6
+        },
+        "falar": {
+            "peso": 1,
+            "semelhante": "fala",
+            "similaridade": 0.8
+        },
+        "você": {
+            "peso": 1,
+            "semelhante": "você",
+            "similaridade": 0
+        },
+        "horario": {
+            "peso": 1,
+            "semelhante": "horário",
+            "similaridade": 0.7142857142857143
+        },
+        "q": {
+            "peso": 2,
+            "semelhante": "que",
+            "similaridade": 0.3333333333333333
+        },
+        "no": {
+            "peso": 2,
+            "semelhante": "no",
+            "similaridade": 0
+        },
+        "relógio": {
+            "peso": 3,
+            "semelhante": "relógio",
+            "similaridade": 0
+        },
+        "marca": {
+            "peso": 1,
+            "semelhante": "marcando",
+            "similaridade": 0.625
+        },
+        "estão": {
+            "peso": 1,
+            "semelhante": "estão",
+            "similaridade": 0
+        },
+        "marcando": {
+            "peso": 1,
+            "semelhante": "marca",
+            "similaridade": 0.625
+        },
+        "informe": {
+            "peso": 1,
+            "semelhante": "informe",
+            "similaridade": 0
+        },
+        "atualize": {
+            "peso": 1,
+            "semelhante": "atual",
+            "similaridade": 0.625
+        },
+        "tô": {
+            "peso": 1,
+            "semelhante": "tô",
+            "similaridade": 0
+        },
+        "sem": {
+            "peso": 1,
+            "semelhante": "sei",
+            "similaridade": 0.3333333333333333
+        },
+        "perdi": {
+            "peso": 1,
+            "semelhante": "perdi",
+            "similaridade": 0
+        },
+        "não": {
+            "peso": 1,
+            "semelhante": "são",
+            "similaridade": 0.3333333333333333
+        },
+        "sei": {
+            "peso": 1,
+            "semelhante": "sem",
+            "similaridade": 0.3333333333333333
+        }
+    },
+    "piada": {
+        "conte": {
+            "peso": 2,
+            "semelhante": "conte",
+            "similaridade": 0
+        },
+        "uma": {
+            "peso": 7,
+            "semelhante": "uma",
+            "similaridade": 0
+        },
+        "piada": {
+            "peso": 7,
+            "semelhante": "dia",
+            "similaridade": 0.2
+        },
+        "me": {
+            "peso": 5,
+            "semelhante": "meu",
+            "similaridade": 0.6666666666666666
+        },
+        "faz": {
+            "peso": 1,
+            "semelhante": "fala",
+            "similaridade": 0.25
+        },
+        "rir": {
+            "peso": 2,
+            "semelhante": "tira",
+            "similaridade": 0.25
+        },
+        "diz": {
+            "peso": 1,
+            "semelhante": "dia",
+            "similaridade": 0.3333333333333333
+        },
+        "tô": {
+            "peso": 2,
+            "semelhante": "tô",
+            "similaridade": 0
+        },
+        "triste": {
+            "peso": 1,
+            "semelhante": "triste",
+            "similaridade": 0
+        },
+        "alegra": {
+            "peso": 2,
+            "semelhante": "alegra",
+            "similaridade": 0
+        },
+        "meu": {
+            "peso": 1,
+            "semelhante": "me",
+            "similaridade": 0.6666666666666666
+        },
+        "dia": {
+            "peso": 1,
+            "semelhante": "diz",
+            "similaridade": 0.3333333333333333
+        },
+        "dá": {
+            "peso": 1,
+            "semelhante": "dá",
+            "similaridade": 0
+        },
+        "risada": {
+            "peso": 2,
+            "semelhante": "rir",
+            "similaridade": 0.16666666666666666
+        },
+        "humor": {
+            "peso": 1,
+            "semelhante": "humor",
+            "similaridade": 0
+        },
+        "precisando": {
+            "peso": 1,
+            "semelhante": "precisando",
+            "similaridade": 0
+        },
+        "tira": {
+            "peso": 1,
+            "semelhante": "rir",
+            "similaridade": 0.25
+        },
+        "engraçado": {
+            "peso": 1,
+            "semelhante": "engraçado",
+            "similaridade": 0
+        },
+        "boa": {
+            "peso": 1,
+            "semelhante": "boa",
+            "similaridade": 0
+        },
+        "fala": {
+            "peso": 1,
+            "semelhante": "faz",
+            "similaridade": 0.25
+        },
+        "diverte": {
+            "peso": 1,
+            "semelhante": "diz",
+            "similaridade": 0.14285714285714285
+        }
+    },
+    "elogio": {
+        "você": {
+            "peso": 14,
+            "semelhante": "você",
+            "similaridade": 0
+        },
+        "é": {
+            "peso": 13,
+            "semelhante": "é",
+            "similaridade": 0
+        },
+        "ótimo": {
+            "peso": 1,
+            "semelhante": "ótima",
+            "similaridade": 0.6
+        },
+        "ótima": {
+            "peso": 1,
+            "semelhante": "ótimo",
+            "similaridade": 0.6
+        },
+        "legal": {
+            "peso": 2,
+            "semelhante": "legal",
+            "similaridade": 0
+        },
+        "incrível": {
+            "peso": 1,
+            "semelhante": "incrível",
+            "similaridade": 0
+        },
+        "gosto": {
+            "peso": 2,
+            "semelhante": "gosto",
+            "similaridade": 0
+        },
+        "de": {
+            "peso": 2,
+            "semelhante": "demais",
+            "similaridade": 0.3333333333333333
+        },
+        "eu": {
+            "peso": 1,
+            "semelhante": "eu",
+            "similaridade": 0
+        },
+        "muito": {
+            "peso": 2,
+            "semelhante": "muito",
+            "similaridade": 0
+        },
+        "bom": {
+            "peso": 2,
+            "semelhante": "boa",
+            "similaridade": 0.3333333333333333
+        },
+        "boa": {
+            "peso": 1,
+            "semelhante": "bom",
+            "similaridade": 0.3333333333333333
+        },
+        "que": {
+            "peso": 1,
+            "semelhante": "que",
+            "similaridade": 0
+        },
+        "ia": {
+            "peso": 1,
+            "semelhante": "ia",
+            "similaridade": 0
+        },
+        "demais": {
+            "peso": 1,
+            "semelhante": "de",
+            "similaridade": 0.3333333333333333
+        },
+        "melhor": {
+            "peso": 1,
+            "semelhante": "melhor",
+            "similaridade": 0
+        },
+        "assistente": {
+            "peso": 1,
+            "semelhante": "assistente",
+            "similaridade": 0
+        },
+        "fera": {
+            "peso": 2,
+            "semelhante": "fera",
+            "similaridade": 0
+        },
+        "show": {
+            "peso": 1,
+            "semelhante": "show",
+            "similaridade": 0
+        },
+        "nota": {
+            "peso": 1,
+            "semelhante": "nota",
+            "similaridade": 0
+        },
+        "10": {
+            "peso": 1,
+            "semelhante": "10",
+            "similaridade": 0
+        },
+        "top": {
+            "peso": 1,
+            "semelhante": "top",
+            "similaridade": 0
+        },
+        "arrasa": {
+            "peso": 1,
+            "semelhante": "arrasa",
+            "similaridade": 0
+        },
+        "te": {
+            "peso": 1,
+            "semelhante": "te",
+            "similaridade": 0
+        },
+        "admiro": {
+            "peso": 1,
+            "semelhante": "admiro",
+            "similaridade": 0
+        },
+        "cê": {
+            "peso": 1,
+            "semelhante": "cê",
+            "similaridade": 0
+        },
+        "tu": {
+            "peso": 1,
+            "semelhante": "tu",
+            "similaridade": 0
+        },
+        "brabo": {
+            "peso": 1,
+            "semelhante": "boa",
+            "similaridade": 0.2
+        },
+        "gênio": {
+            "peso": 1,
+            "semelhante": "gênio",
+            "similaridade": 0
+        }
+    },
+    "sorry": {
+        "desculpa": {
+            "peso": 14,
+            "semelhante": "desculpas",
+            "similaridade": 0.8888888888888888
+        },
+        "desculpe": {
+            "peso": 2,
+            "semelhante": "desculpa",
+            "similaridade": 0.75
+        },
+        "me": {
+            "peso": 5,
+            "semelhante": "meu",
+            "similaridade": 0.6666666666666666
+        },
+        "ai": {
+            "peso": 1,
+            "semelhante": "a",
+            "similaridade": 0.5
+        },
+        "aí": {
+            "peso": 3,
+            "semelhante": "a",
+            "similaridade": 0.5
+        },
+        "qualquer": {
+            "peso": 2,
+            "semelhante": "que",
+            "similaridade": 0.125
+        },
+        "coisa": {
+            "peso": 2,
+            "semelhante": "foi",
+            "similaridade": 0.2
+        },
+        "foi": {
+            "peso": 8,
+            "semelhante": "coisa",
+            "similaridade": 0.2
+        },
+        "mal": {
+            "peso": 7,
+            "semelhante": "falha",
+            "similaridade": 0.2
+        },
+        "mesmo": {
+            "peso": 3,
+            "semelhante": "me",
+            "similaridade": 0.4
+        },
+        "perdoa": {
+            "peso": 2,
+            "semelhante": "perdoe",
+            "similaridade": 0.6666666666666666
+        },
+        "perdoe": {
+            "peso": 1,
+            "semelhante": "perdoa",
+            "similaridade": 0.6666666666666666
+        },
+        "perdão": {
+            "peso": 3,
+            "semelhante": "perdoa",
+            "similaridade": 0.3333333333333333
+        },
+        "sinto": {
+            "peso": 3,
+            "semelhante": "sinto",
+            "similaridade": 0
+        },
+        "muito": {
+            "peso": 3,
+            "semelhante": "muito",
+            "similaridade": 0
+        },
+        "por": {
+            "peso": 3,
+            "semelhante": "sorry",
+            "similaridade": 0.2
+        },
+        "isso": {
+            "peso": 1,
+            "semelhante": "isso",
+            "similaridade": 0
+        },
+        "sem": {
+            "peso": 1,
+            "semelhante": "se",
+            "similaridade": 0.6666666666666666
+        },
+        "querer": {
+            "peso": 1,
+            "semelhante": "que",
+            "similaridade": 0.5
+        },
+        "não": {
+            "peso": 5,
+            "semelhante": "não",
+            "similaridade": 0
+        },
+        "erro": {
+            "peso": 2,
+            "semelhante": "era",
+            "similaridade": 0.25
+        },
+        "meu": {
+            "peso": 2,
+            "semelhante": "me",
+            "similaridade": 0.6666666666666666
+        },
+        "falha": {
+            "peso": 1,
+            "semelhante": "falhei",
+            "similaridade": 0.5
+        },
+        "minha": {
+            "peso": 2,
+            "semelhante": "minhas",
+            "similaridade": 0.8333333333333334
+        },
+        "falhei": {
+            "peso": 1,
+            "semelhante": "falha",
+            "similaridade": 0.5
+        },
+        "com": {
+            "peso": 1,
+            "semelhante": "cometi",
+            "similaridade": 0.5
+        },
+        "você": {
+            "peso": 1,
+            "semelhante": "você",
+            "similaridade": 0
+        },
+        "vacilei": {
+            "peso": 1,
+            "semelhante": "vacilo",
+            "similaridade": 0.5714285714285714
+        },
+        "vacilo": {
+            "peso": 1,
+            "semelhante": "vacilei",
+            "similaridade": 0.5714285714285714
+        },
+        "cometi": {
+            "peso": 1,
+            "semelhante": "com",
+            "similaridade": 0.5
+        },
+        "um": {
+            "peso": 1,
+            "semelhante": "um",
+            "similaridade": 0
+        },
+        "peço": {
+            "peso": 2,
+            "semelhante": "peço",
+            "similaridade": 0
+        },
+        "desculpas": {
+            "peso": 2,
+            "semelhante": "desculpa",
+            "similaridade": 0.8888888888888888
+        },
+        "aceita": {
+            "peso": 1,
+            "semelhante": "a",
+            "similaridade": 0.16666666666666666
+        },
+        "minhas": {
+            "peso": 1,
+            "semelhante": "minha",
+            "similaridade": 0.8333333333333334
+        },
+        "favor": {
+            "peso": 1,
+            "semelhante": "favor",
+            "similaridade": 0
+        },
+        "era": {
+            "peso": 1,
+            "semelhante": "erro",
+            "similaridade": 0.25
+        },
+        "intenção": {
+            "peso": 1,
+            "semelhante": "entendi",
+            "similaridade": 0.125
+        },
+        "queria": {
+            "peso": 1,
+            "semelhante": "que",
+            "similaridade": 0.5
+        },
+        "te": {
+            "peso": 3,
+            "semelhante": "te",
+            "similaridade": 0
+        },
+        "chatear": {
+            "peso": 1,
+            "semelhante": "chatear",
+            "similaridade": 0
+        },
+        "se": {
+            "peso": 1,
+            "semelhante": "sem",
+            "similaridade": 0.6666666666666666
+        },
+        "ofendi": {
+            "peso": 1,
+            "semelhante": "o",
+            "similaridade": 0.16666666666666666
+        },
+        "que": {
+            "peso": 1,
+            "semelhante": "querer",
+            "similaridade": 0.5
+        },
+        "eu": {
+            "peso": 1,
+            "semelhante": "eu",
+            "similaridade": 0
+        },
+        "falei": {
+            "peso": 1,
+            "semelhante": "mal",
+            "similaridade": 0.2
+        },
+        "pela": {
+            "peso": 1,
+            "semelhante": "pela",
+            "similaridade": 0
+        },
+        "demora": {
+            "peso": 2,
+            "semelhante": "de",
+            "similaridade": 0.3333333333333333
+        },
+        "a": {
+            "peso": 1,
+            "semelhante": "ai",
+            "similaridade": 0.5
+        },
+        "entendi": {
+            "peso": 1,
+            "semelhante": "antes",
+            "similaridade": 0.14285714285714285
+        },
+        "respondi": {
+            "peso": 1,
+            "semelhante": "mesmo",
+            "similaridade": 0.125
+        },
+        "antes": {
+            "peso": 1,
+            "semelhante": "a",
+            "similaridade": 0.2
+        },
+        "tô": {
+            "peso": 1,
+            "semelhante": "tô",
+            "similaridade": 0
+        },
+        "atrasado": {
+            "peso": 1,
+            "semelhante": "a",
+            "similaridade": 0.125
+        },
+        "o": {
+            "peso": 2,
+            "semelhante": "ofendi",
+            "similaridade": 0.16666666666666666
+        },
+        "transtorno": {
+            "peso": 1,
+            "semelhante": "era",
+            "similaridade": 0.1
+        },
+        "incômodo": {
+            "peso": 1,
+            "semelhante": "incomodar",
+            "similaridade": 0.4444444444444444
+        },
+        "incomodar": {
+            "peso": 1,
+            "semelhante": "incômodo",
+            "similaridade": 0.4444444444444444
+        },
+        "sorry": {
+            "peso": 1,
+            "semelhante": "por",
+            "similaridade": 0.2
+        },
+        "sry": {
+            "peso": 1,
+            "semelhante": "sry",
+            "similaridade": 0
+        },
+        "de": {
+            "peso": 1,
+            "semelhante": "demora",
+            "similaridade": 0.3333333333333333
+        },
+        "verdade": {
+            "peso": 1,
+            "semelhante": "verdade",
+            "similaridade": 0
+        }
+    }
+}

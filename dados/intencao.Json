@@ -1,0 +1,120 @@
+{
+  "nada":{},
+  "greeting": [
+    "oi", "oii", "oie", "ola", "olá", "oláá", "olááá", "bom dia", "bom diaa", "bom dia flor do dia", "bom dia pessoa",
+    "boa tarde", "boa tardee", "boa tarde pessoa", "boa noite", "boa noite estrela", "boa noite lua", "boa noite pessoa",
+    "eae", "eai", "e aí", "e aee", "eae parceiro", "eae família", "eae galera", "fala", "fala aí", "fala meu consagrado", "fala parceiro",
+    "opa", "opaaa", "opão", "opa meu bom", "opa meu querido", "salve", "salve família", "salve galera", "salve salve",
+    "olá tudo bem", "oi tudo bem", "eae tudo certo", "eae tudo bom", "fala comigo", "oi GG", "bom dia ai", "bom dia pra você",
+    "hey", "hi", "hello", "howdy", "iae", "coé", "beleza?", "belezaaa", "tudo certo?", "tudo bom?",
+    "como vai você", "prazer em te ver", "que bom te encontrar", "finalmente", "aí sim", "demorou", "fala tu", "opa opa"
+  ],
+
+  "farewell": [
+    "tchau", "tchau tchau", "tchauzinho", "até mais", "até mais ver", "falou", "falouu", "flw", "fui", "fuiii",
+    "até logo", "até loguinho", "vou sair", "até depois", "nos vemos", "até amanhã", "até breve", "inté", "intéé",
+    "to indo", "to saindo", "me retirando", "preciso ir", "preciso sair", "até a próxima", "se cuida", "se cuida viu",
+    "vou nessa", "partiu", "bora sair", "cai fora", "vazou", "fui correndo", "até um dia", "até qualquer hora",
+    "fechar", "encerrar", "terminar conversa", "acabou por aqui", "não preciso mais", "obrigado já resolveu", "pode encerrar"
+  ],
+
+  "how_are_you": [
+    "tudo bem", "tudo bom", "tudo certo", "tudo tranquilo", "como você está", "como você tá", "como vai", "como vai você",
+    "você está bem", "você tá bem", "tá tudo bem", "tá tudo certo", "como você se sente", "e ai como você ta",
+    "tudo certo com você", "beleza?", "como tão as coisas", "está tudo ok", "como você se sente hoje",
+    "como está se sentindo", "está bem", "como anda", "como estão as coisas", "está tudo em cima", "como cê tá"
+  ],
+
+  "thanks": [
+    "obrigado", "obrigada", "obrigadão", "obrigadinha", "valeu", "valeu mesmo", "valeu demais", "muito obrigado", "muito obrigada",
+    "agradecido", "agradecida", "grato", "grata", "brigado", "brigada", "vlw", "vlwww", "agradeço", "agradeço muito",
+    "obrigado pela ajuda", "valeu pela ajuda", "obrigado por tudo", "tu é fera", "cê é fera", "você é fera",
+    "devo te agradecer", "sou grato", "sou grata", "obrigado viu"
+  ],
+
+  "identidade": [
+    "qual seu nome", "qual o seu nome", "me diga seu nome", "como você se chama", "como te chama", "qual é seu nome",
+    "quem é você", "quem é tu", "me fala quem é você", "o que você é", "você é uma ia", "você é um robô", "você é inteligência artificial",
+    "quem te criou", "quem foi que te fez", "quem é seu criador", "qual sua função", "qual seu propósito", "para que você serve",
+    "me fala sobre você", "se apresente", "conte sua história", "você é robô", "qual sua origem", "de onde você veio",
+    "o que você é capaz", "fale de você", "me apresente seus poderes"
+  ],
+
+  "ajuda": [
+    "me ajuda", "me ajuda ai", "socorro", "preciso de ajuda", "preciso de ajuda aqui", "pode me ajudar", "me da uma força",
+    "o que você pode fazer", "o que você sabe fazer", "o que você faz", "quais são suas funções", "quais comandos você entende",
+    "como você funciona", "como usar você", "me explica o que você faz", "suas funções", "mostre seus poderes",
+    "o que você sabe fazer", "lista de comandos", "como te usar", "qual sua capacidade"
+  ],
+
+ "tempo": [
+  "fale o clima",
+  "qual a previsão do tempo para hoje",
+  "qual a previsão do tempo para amanhã",
+  "como está o clima agora",
+  "qual a temperatura atual",
+  "vai chover hoje",
+  "vai chover amanhã",
+  "vai fazer sol hoje",
+  "vai fazer sol amanhã",
+  "temperatura máxima para hoje",
+  "temperatura mínima para hoje",
+  "umidade do ar agora",
+  "velocidade do vento hoje",
+  "qual a sensação térmica",
+  "previsão de chuva para hoje",
+  "previsão de chuva para amanhã",
+  "está chovendo agora",
+  "está fazendo sol agora",
+  "está nublado agora",
+  "clima para o fim de semana",
+  "previsão do tempo para amanhã de manhã",
+  "previsão do tempo para amanhã à tarde",
+  "previsão do tempo para amanhã à noite",
+  "vai nevar hoje",
+  "vai fazer frio hoje",
+  "vai fazer calor hoje",
+  "qual a probabilidade de chuva",
+  "tempo agora na minha cidade",
+  "clima agora na minha localização"
+],
+
+  "hora": [
+    "que horas são", "que horas sao", "que horas são agora", "que horas são exatamente", "que horas são neste momento",
+    "me diga a hora", "me diga as horas", "me diz a hora", "me fala a hora", "me fala as horas",
+    "hora atual", "hora certa", "hora exata", "hora agora", "horário atual",
+    "qual a hora", "qual é a hora", "qual a hora certa", "qual o horário", "qual é o horário",
+    "pode me dizer as horas", "pode me falar a hora", "você pode me dizer as horas",
+    "horario agora", "horário agora", "horário atual agora",
+    "que horas", "q horas", "q horas são", "horas agora",
+    "que horas são no relógio", "que marca no relógio", "que horas estão marcando",
+    "me informe a hora", "me atualize a hora", "qual o momento atual",
+    "tô sem relógio que horas são", "perdi a hora", "não sei que horas são"
+  ],
+
+
+  "piada": [
+    "conte uma piada", "me faz rir", "piada", "uma piada", "me conte uma piada", "diz uma piada",
+    "tô triste me alegra", "alegra meu dia", "dá uma risada", "humor", "tô precisando rir",
+    "me tira uma risada", "engraçado", "piada boa", "fala uma piada", "me diverte"
+  ],
+
+  "elogio": [
+    "você é ótimo", "você é ótima", "você é legal", "você é incrível", "gosto de você", "eu gosto de você",
+    "você é muito bom", "você é muito boa", "que ia legal", "você é demais", "melhor assistente",
+    "você é fera", "você é show", "você é nota 10", "você é top", "você arrasa",
+    "te admiro", "cê é bom", "tu é fera", "brabo", "gênio"
+  ],
+
+  "sorry": [
+    "desculpa", "desculpe", "me desculpa", "me desculpe", "desculpa ai", "desculpa aí", "desculpa qualquer coisa",
+    "foi mal", "foi mal aí", "foi mal mesmo", "me perdoa", "me perdoe", "perdão", "perdão aí",
+    "sinto muito", "sinto muito mesmo", "sinto muito por isso", "foi sem querer", "não foi por mal",
+    "erro meu", "falha minha", "falhei com você", "vacilei", "vacilo meu", "cometi um erro",
+    "peço desculpas", "peço perdão", "aceita minhas desculpas", "me perdoa por favor",
+    "não era minha intenção", "não queria te chatear", "desculpa se te ofendi", "desculpa qualquer coisa que eu falei",
+    "foi mal pela demora", "desculpa a demora", "desculpa não entendi", "desculpa não respondi antes",
+    "foi mal tô atrasado", "desculpa o transtorno", "desculpa o incômodo", "desculpa te incomodar",
+    "sorry", "sry", "desculpa mesmo", "foi mal de verdade"
+  ]
+}
