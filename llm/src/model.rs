@@ -55,14 +55,18 @@ pub fn llm(mut model: ModelWeights,tokenizer: &Tokenizer,prompt: String) -> Resu
     let encoding = tokenizer.encode(prompt, false)
         .map_err(|e| e.to_string())?;
 
-    let ids = encoding.get_ids();
+    let mut tokens = prompt.clone();
 
-    let input = Tensor::new(ids, &Device::Cpu)?
+    loop{
+
+    let input = Tensor::new(tokens.as_slice(), &Device::Cpu)?
         .unsqueeze(0)?;
 
     let logits = model.forward(&input,0)?;
 
-    println!("Logits: {:?}", logits);
-
-    Ok(())
+    let token_provavel =  logits.flatten_all()?.argmax(0).to_scalar::<u32>()?;
+    if token_provavel == eos_token_id {
+        break;
+    }
+    }
 }
