@@ -51,18 +51,69 @@ pub fn carregar_model() -> Result<Model, Box<dyn std::error::Error>> {
     Ok(Model { mmap, weights,tokens})
 }
 
-pub fn llm(mut model: ModelWeights,tokenizer: &Tokenizer,prompt: String) -> Result<(), Box<dyn std::error::Error>> {
+use std::io::{self, Write};
+
+pub fn llm(
+    mut model: ModelWeights,
+    tokenizer: &Tokenizer,
+    prompt: String
+) -> Result<(), Box<dyn std::error::Error>> {
+
     let encoding = tokenizer.encode(prompt, false)
         .map_err(|e| e.to_string())?;
 
-    let ids = encoding.get_ids();
+    let mut tokens = encoding.get_ids().to_vec();
 
-    let input = Tensor::new(ids, &Device::Cpu)?
+    let eos_token_id = tokenizer
+        .get_vocab(true)
+        .get("<|im_end|>")
+        .copied()
+        .ok_or("EOS não encontrado")?;
+
+    let input = Tensor::new(tokens.as_slice(), &Device::Cpu)?
+    .unsqueeze(0)?;
+
+    let logits = model.forward(&input, 0)?;
+
+    let mut next_token = logits
+    .flatten_all()?
+    .argmax(0)?
+    .to_scalar::<u32>()?;
+
+    let mut offset = tokens.len();
+
+for _ in 0..100 {
+    if next_token == eos_token_id {
+        break;
+    }
+
+    let texto = tokenizer
+        .decode(&[next_token], true)
+        .map_err(|e| e.to_string())?;
+
+    print!("{}", texto);
+    std::io::stdout().flush()?;
+
+    tokens.push(next_token);
+
+    let input = Tensor::new(&[next_token], &Device::Cpu)?
         .unsqueeze(0)?;
 
-    let logits = model.forward(&input,0)?;
+    use std::time::Instant;
 
-    println!("Logits: {:?}", logits);
+let inicio = Instant::now();
+
+let logits = model.forward(&input, offset)?;
+
+println!("forward: {:?}", inicio.elapsed());
+
+    next_token = logits
+        .flatten_all()?
+        .argmax(0)?
+        .to_scalar::<u32>()?;
+
+    offset += 1;
+}
 
     Ok(())
 }
