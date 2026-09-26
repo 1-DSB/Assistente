@@ -62,6 +62,7 @@ pub fn llm(
     let encoding = tokenizer.encode(prompt, false)
         .map_err(|e| e.to_string())?;
 
+<<<<<<< HEAD
     let mut tokens = encoding.get_ids().to_vec();
 
     let eos_token_id = tokenizer
@@ -97,10 +98,18 @@ for _ in 0..100 {
     tokens.push(next_token);
 
     let input = Tensor::new(&[next_token], &Device::Cpu)?
+=======
+    let mut tokens = prompt.clone();
+
+    loop{
+
+    let input = Tensor::new(tokens.as_slice(), &Device::Cpu)?
+>>>>>>> 341288d5993d6808e7f85f6b3bfcafaaa9e94cac
         .unsqueeze(0)?;
 
     use std::time::Instant;
 
+<<<<<<< HEAD
 let inicio = Instant::now();
 
 let logits = model.forward(&input, offset)?;
@@ -116,4 +125,11 @@ println!("forward: {:?}", inicio.elapsed());
 }
 
     Ok(())
+=======
+    let token_provavel =  logits.flatten_all()?.argmax(0).to_scalar::<u32>()?;
+    if token_provavel == eos_token_id {
+        break;
+    }
+    }
+>>>>>>> 341288d5993d6808e7f85f6b3bfcafaaa9e94cac
 }
