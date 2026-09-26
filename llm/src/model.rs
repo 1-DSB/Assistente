@@ -56,13 +56,44 @@ use std::io::{self, Write};
 pub fn llm(
     mut model: ModelWeights,
     tokenizer: &Tokenizer,
-    prompt: String
+    mut prompt: String,
+    pensar: bool
 ) -> Result<(), Box<dyn std::error::Error>> {
+    if (!pensar) {
+        prompt = format!(
+            "<|im_start|>system
+Você é a Lia, uma assistente pessoal local.
+Responda sempr e em português.
+Seja direto e objetivo.
+<|im_end|>
+<|im_start|>user
+{}
+<|im_end|>
+<|im_start|>assistant
+<think>
 
-    let encoding = tokenizer.encode(prompt, false)
+</think>",
+            prompt
+        );
+    } else{
+        prompt = format!(
+            "<|im_start|>system
+Você é a Lia, uma assistente pessoal local.
+Responda sempr e em português.
+Seja direto e objetivo.
+<|im_end|>
+<|im_start|>user
+{}
+<|im_end|>
+<|im_start|>assistant
+<think>",
+            prompt
+        );
+    }
+    let encoding = tokenizer
+        .encode(prompt, false)
         .map_err(|e| e.to_string())?;
 
-<<<<<<< HEAD
     let mut tokens = encoding.get_ids().to_vec();
 
     let eos_token_id = tokenizer
@@ -72,64 +103,48 @@ pub fn llm(
         .ok_or("EOS não encontrado")?;
 
     let input = Tensor::new(tokens.as_slice(), &Device::Cpu)?
-    .unsqueeze(0)?;
+        .unsqueeze(0)?;
 
     let logits = model.forward(&input, 0)?;
 
     let mut next_token = logits
-    .flatten_all()?
-    .argmax(0)?
-    .to_scalar::<u32>()?;
-
-    let mut offset = tokens.len();
-
-for _ in 0..100 {
-    if next_token == eos_token_id {
-        break;
-    }
-
-    let texto = tokenizer
-        .decode(&[next_token], true)
-        .map_err(|e| e.to_string())?;
-
-    print!("{}", texto);
-    std::io::stdout().flush()?;
-
-    tokens.push(next_token);
-
-    let input = Tensor::new(&[next_token], &Device::Cpu)?
-=======
-    let mut tokens = prompt.clone();
-
-    loop{
-
-    let input = Tensor::new(tokens.as_slice(), &Device::Cpu)?
->>>>>>> 341288d5993d6808e7f85f6b3bfcafaaa9e94cac
-        .unsqueeze(0)?;
-
-    use std::time::Instant;
-
-<<<<<<< HEAD
-let inicio = Instant::now();
-
-let logits = model.forward(&input, offset)?;
-
-println!("forward: {:?}", inicio.elapsed());
-
-    next_token = logits
         .flatten_all()?
         .argmax(0)?
         .to_scalar::<u32>()?;
 
-    offset += 1;
-}
+    let mut offset = tokens.len();
+    for _ in 0..1 {
+    loop {
+
+            if next_token == eos_token_id {
+                break;
+            }
+
+            let texto = tokenizer
+                .decode(&[next_token], true)
+                .map_err(|e| e.to_string())?;
+
+            print!("{}", texto);
+            std::io::stdout().flush()?;
+
+            tokens.push(next_token);
+            let input = Tensor::new(&[next_token], &Device::Cpu)?
+                .unsqueeze(0)?;
+
+            let inicio = std::time::Instant::now();
+
+            let logits = model.forward(&input, offset)?;
+
+            next_token = logits
+                .flatten_all()?
+                .argmax(0)?
+                .to_scalar::<u32>()?;
+
+            offset += 1;
+
+        }if (!pensar){break;}}
+
+        println!();
 
     Ok(())
-=======
-    let token_provavel =  logits.flatten_all()?.argmax(0).to_scalar::<u32>()?;
-    if token_provavel == eos_token_id {
-        break;
-    }
-    }
->>>>>>> 341288d5993d6808e7f85f6b3bfcafaaa9e94cac
 }
