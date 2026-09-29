@@ -39,6 +39,8 @@ class Classificador():
                         palavra,
                         comparar
                     )
+                    if semelhanca < 0:
+                        semelhanca = 0
 
                     if comparar != palavra and semelhanca > maior_semelhanca:
                         maior_semelhanca = semelhanca
@@ -84,9 +86,6 @@ class Classificador():
 
         result = numero_letras_iguais / max(len(token), len(comparar))
 
-        if result < 0:
-            result = 0
-
         return result
 
     def proba_intencao(self, input):
@@ -111,6 +110,9 @@ class Classificador():
                         token_user,
                         token_intencao
                     )
+
+                    if semelhanca < 0:
+                        semelhanca = 0
 
                     if semelhanca > maior_semelhanca:
                         maior_semelhanca = semelhanca
@@ -137,11 +139,78 @@ class Classificador():
         for i in range(len(probas)):
             if probas[i] > probas[maior]:
                 maior = i
+        complex = self.complexidade(input)
         if probas[maior] < 40:
             maior = 0
-
+        if complex >= 7:
+            maior = 0
+        print(probas[maior],intencoes[maior])
         return intencoes[maior]
 
     def responder(self,intencao):
         json = self.ler_json("resposta.json")
         return random.choice(list(json[intencao]))
+
+    def complexidade(self, pergunta):
+        frase = pergunta.lower()
+        palavrasComplexas = self.ler_json("palavras_gatilho.json")
+        palavrasSimples = self.ler_json("palavras_simples.json")
+        l = len(frase.split())
+        k = 0
+        for gatilho in palavrasComplexas:
+            if gatilho in frase:
+                k = 1
+                break
+        s = 0
+        for simples in palavrasSimples:
+            if simples in frase:
+                s = 1
+
+        #NOTA: o modelo ja passou pelo treino
+        result = (1.3*l + 1.9000000000000006*k) - (0.7*s)
+        return max(0.0, min(10.0, result))
+
+    def treinar_pesos(self, dados, passo=0.1):
+        melhor_pesos = None
+        menor_erro = float("inf")
+
+        valor = 0.0
+
+        while valor <= 2.0:
+            w1 = valor
+
+            valor2 = 0.0
+            while valor2 <= 2.0:
+                w2 = valor2
+
+                valor3 = 0.0
+                while valor3 <= 2.0:
+                    w3 = valor3
+
+                    valor4 = 0.0
+                    while valor4 <= 2.0:
+                        w4 = valor4
+
+                        erro = 0.0
+
+                        for pergunta, esperado in dados:
+                            resultado = self.complexidade(
+                                pergunta,
+                                w1, w2, w3, w4
+                            )
+
+                            erro += (resultado - esperado) ** 2
+
+                        if erro < menor_erro:
+                            menor_erro = erro
+                            melhor_pesos = (w1, w2, w3, w4)
+
+                        valor4 += passo
+
+                    valor3 += passo
+
+                valor2 += passo
+
+            valor += passo
+
+        return melhor_pesos

@@ -3,7 +3,6 @@ use candle_core::quantized::gguf_file;
 use memmap2::Mmap;
 use std::time::{Duration, Instant};
 use candle_transformers::models::quantized_qwen3::ModelWeights;
-use candle_transformers::*;
 use candle_core::{Device, Tensor};
 use tokenizers::Tokenizer;
 
@@ -54,11 +53,11 @@ pub fn carregar_model() -> Result<Model, Box<dyn std::error::Error>> {
 use std::io::{self, Write};
 
 pub fn llm(
-    mut model: ModelWeights,
+    mut model: &mut ModelWeights,
     tokenizer: &Tokenizer,
     mut prompt: String,
     pensar: bool
-) -> Result<(), Box<dyn std::error::Error>> {
+) -> Result<String, Box<dyn std::error::Error>> {
     if (!pensar) {
         prompt = format!(
             "<|im_start|>system
@@ -111,7 +110,7 @@ Seja direto e objetivo.
         .flatten_all()?
         .argmax(0)?
         .to_scalar::<u32>()?;
-
+    let mut result = "".to_string();
     let mut offset = tokens.len();
     for _ in 0..1 {
     loop {
@@ -124,14 +123,12 @@ Seja direto e objetivo.
                 .decode(&[next_token], true)
                 .map_err(|e| e.to_string())?;
 
-            print!("{}", texto);
+            result = format!("{}{}",result,texto);
             std::io::stdout().flush()?;
 
             tokens.push(next_token);
             let input = Tensor::new(&[next_token], &Device::Cpu)?
                 .unsqueeze(0)?;
-
-            let inicio = std::time::Instant::now();
 
             let logits = model.forward(&input, offset)?;
 
@@ -143,8 +140,6 @@ Seja direto e objetivo.
             offset += 1;
 
         }if (!pensar){break;}}
-
-        println!();
-
-    Ok(())
+    println!("{}",result);
+    Ok(result)
 }

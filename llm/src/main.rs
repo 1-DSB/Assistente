@@ -1,5 +1,3 @@
-use crate::model::carregar_tokenizer;
-
 mod server;
 mod model;
 mod sampling;
@@ -10,10 +8,6 @@ mod config;
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let modelo = model::carregar_model()?;
     let tokenizer = model::carregar_tokenizer()?;
-
-    model::llm(modelo.weights, &tokenizer, "ola".to_string(),false)?;
-
-    server::rodar().await;
-
+    server::rodar(modelo.weights,tokenizer).await;
     Ok(())
 }

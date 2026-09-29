@@ -11,10 +11,10 @@ class Sistema:
             return False
     @staticmethod
     def requerimento(pergunta):
+        resp = {}
         try:
             url = f"http://localhost:3000/api/pergunta"
             resp = requests.post(url, json={'pergunta': pergunta})
-            print(resp.json())
         except ConnectionError:
             print("erro")
-
+        return resp.json()
