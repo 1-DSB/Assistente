@@ -1,0 +1,110 @@
+{
+"greeting": [
+    "Olá, no que posso ajudar?",
+    "Oi, tudo bem?",
+    "Olá, no que eu poderia te ajudar?",
+    "E aí! Precisa de algo?",
+    "Fala! Como posso ajudar?",
+    "Hey! Como você está hoje?",
+    "E aí, beleza? No que eu ajudo?",
+    "Opa! Tudo em cima?",
+    "Salve! Como posso te ajudar hoje?",
+    "Oi, como você está se sentindo hoje?",
+    "Fala aí! Tô aqui pra ajudar."
+],
+"farewell": [
+    "Até mais!",
+    "Tchau!",
+    "Falou!",
+    "Até depois!",
+    "Valeu!",
+    "Até logo!",
+    "Fui!",
+    "Inté!",
+    "Tchau, brigado!",
+    "Até a próxima!",
+    "Falou, valeu!",
+    "Tchau, tchau!",
+    "Até mais ver!",
+    "Se cuida!",
+    "Falou, mano!",
+    "Vai, com Deus"
+],
+"how_are_you": [
+    "Estou bem!",
+    "Tudo certo!",
+    "Indo bem",
+    "Estou funcionando perfeitamente!",
+    "Tudo nos conformes!",
+    "Estou ok!",
+    "Tudo tranquilo por aqui.",
+    "Estou aqui e pronto para ajudar!",
+    "Funcional e feliz!",
+    "Estou bem, obrigado por perguntar!"
+],
+"thanks": [
+    "De nada!",
+    "Disponha!",
+    "Tamo junto!",
+    "Por nada!",
+    "Imagine!",
+    "Magina!",
+    "Nada!",
+    "Sem problemas!",
+    "Relaxa!",
+    "Tranquilo!"
+],
+"identidade": [
+    "Sou o GGIA",
+    "Eu sou o GGIA",
+    "Sou GGIA",
+    "Me chamo GGIA",
+    "GGIA, prazer!",
+    "Sou o assistente GGIA",
+    "Eu sou GGIA, seu assistente"
+],
+  "ajuda": [
+    "Posso abrir apps e responder coisas simples",
+    "Abro aplicativos e respondo perguntas básicas",
+    "Posso abrir programas e tirar dúvidas simples",
+    "Abro apps e respondo perguntas rápidas",
+    "Posso executar aplicativos e responder comandos simples",
+    "Abro programas e converso sobre assuntos gerais"
+],
+"acknowledgment": [
+        "Entendi!",
+        "Certo!",
+        "Anotado!",
+        "Compreendo.",
+        "Tô ligado.",
+        "Ok, continuando...",
+        "Perfeito!"
+    ],
+"dont_understand": [
+        "Desculpe, não entendi. Pode repetir?",
+        "Ops! Não consegui processar isso.",
+        "Fala mais devagar? Não captei direito.",
+        "Não entendi. Pode reformular?"
+    ],
+"idle": [
+        "Ainda está aí?",
+        "Tudo bem? Ainda precisa de ajuda?",
+        "Pode falar, estou aqui esperando."
+    ],
+"sorry": [
+    "Sem problemas!",
+    "Relaxa, não precisa se desculpar.",
+    "Tranquilo! Acontece com todo mundo.",
+    "De boa! Seguindo em frente.",
+    "Não foi nada! Pode ficar tranquilo.",
+    "Imagina! Nem esquenta.",
+    "Fica tranquilo, tô aqui pra isso.",
+    "Não precisa pedir desculpas! Tudo certo.",
+    "Relaxa, eu nem notei!",
+    "Deixa disso! Vamos resolver o que importa.",
+    "Sem crise! Já até esqueci.",
+    "Pode ficar em paz. Nada aconteceu.",
+    "Tá perdoado! (não que precisasse)",
+    "Desculpas aceitas. Mas nem precisava!"
+]
+}
