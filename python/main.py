@@ -25,8 +25,10 @@ def main():
     print("ok")
 
     json = {}
-
-    result = f.whisper(audio).lower()
+    if s.verificarConexao():
+        result = f.google(audio).lower()
+    else:
+        result = f.whisper(audio).lower()
     if result:
         print(result)
         intencao = c.proba_intencao(result)
@@ -39,4 +41,6 @@ def main():
 
 if __name__ == "__main__":
     while True:
-        print(main())
+        resp = main()
+        if not resp:
+            break
